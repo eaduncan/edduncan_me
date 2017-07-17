@@ -1,0 +1,119 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+html 
+  body
+
+    font-family: 'Montserrat', sans-serif
+    margin: 0
+    padding: 0
+
+header
+  text-align: center
+  padding: 60px 40px 0 40px
+  margin: 0 auto
+  max-width: 720px
+
+  h1 
+    font-size: 40px
+    margin: 5px auto
+
+  .avatar
+    border-radius: 25%
+
+  .sub
+    color: #666
+    font-weight: 100
+    font-style: normal
+    font-size: 32px
+    margin: 5px auto
+
+.intenest-list-header
+  color: #4285f4
+  text-align: center
+  text-transform: uppercase
+  font-weight: 200
+  background-color: #eee
+  margin: 60px 0 0 
+  padding: 10px 0
+  border-top: 1px #666 solid
+  border-bottom: 1px #666 solid
+
+.interest-list
+  list-style: none
+  width: 100%
+  padding: 0
+  margin: 0
+
+.interest-bar
+  display: block
+  width: 100%
+  margin: auto
+  padding: 20px 40px
+  text-align: center
+  text-decoration: none
+  border-bottom: 1px solid #ccc
+
+  h3
+    font-size: 30px
+    font-weight: 300
+
+  p
+    font-size: 20px
+    font-weight: 200
+
+.interest-content
+  max-width: 800px
+  text-align: center
+  margin: auto
+
+.interest-img
+  margin: auto
+  display: table-cell
+  vertical-align: middle
+
+  img 
+    width: 200px
+    height: 200px
+
+.interest-info
+  display: table-cell
+  width: 100%
+  padding-left: 30px
+
+.interest-color-item
+  background-color: white
+  color: #333
+  transition-duration: 0.5s
+
+  a
+    color: #333
+  
+    &:visited
+      color: #333
+
+    &:hover
+      color: white
+
+.blue
+  @extend .interest-color-item
+
+  &:hover
+    background-color: #4285f4
+
+.purple
+  @extend .interest-color-item
+  &:hover
+    background-color: #8725ce
+
+.gold
+  @extend .interest-color-item
+  &:hover
+    background-color: #f7bf25
+
+.red
+  @extend .interest-color-item
+  &:hover
+    background-color: #e81b52

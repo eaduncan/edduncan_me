@@ -1,0 +1,94 @@
+html body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0; }
+
+header {
+  text-align: center;
+  padding: 60px 40px 0 40px;
+  margin: 0 auto;
+  max-width: 720px; }
+  header h1 {
+    font-size: 40px;
+    margin: 5px auto; }
+  header .avatar {
+    border-radius: 25%; }
+  header .sub {
+    color: #666;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 32px;
+    margin: 5px auto; }
+
+.intenest-list-header {
+  color: #4285f4;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 200;
+  background-color: #eee;
+  margin: 60px 0 0;
+  padding: 10px 0;
+  border-top: 1px #666 solid;
+  border-bottom: 1px #666 solid; }
+
+.interest-list {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+.interest-bar {
+  display: block;
+  width: 100%;
+  margin: auto;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc; }
+  .interest-bar h3 {
+    font-size: 30px;
+    font-weight: 300; }
+  .interest-bar p {
+    font-size: 20px;
+    font-weight: 200; }
+
+.interest-content {
+  max-width: 800px;
+  text-align: center;
+  margin: auto; }
+
+.interest-img {
+  margin: auto;
+  display: table-cell;
+  vertical-align: middle; }
+  .interest-img img {
+    width: 200px;
+    height: 200px; }
+
+.interest-info {
+  display: table-cell;
+  width: 100%;
+  padding-left: 30px; }
+
+.interest-color-item, .blue, .purple, .gold, .red {
+  background-color: white;
+  color: #333;
+  transition-duration: 0.5s; }
+  .interest-color-item a, .blue a, .purple a, .gold a, .red a {
+    color: #333; }
+    .interest-color-item a:visited, .blue a:visited, .purple a:visited, .gold a:visited, .red a:visited {
+      color: #333; }
+    .interest-color-item a:hover, .blue a:hover, .purple a:hover, .gold a:hover, .red a:hover {
+      color: white; }
+
+.blue:hover {
+  background-color: #4285f4; }
+
+.purple:hover {
+  background-color: #8725ce; }
+
+.gold:hover {
+  background-color: #f7bf25; }
+
+.red:hover {
+  background-color: #e81b52; }
