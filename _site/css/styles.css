@@ -4,33 +4,35 @@ html body {
   padding: 0; }
 
 header {
+  color: white;
+  background-color: #555;
   text-align: center;
-  padding: 0;
+  padding: 40px 0;
   margin: 0;
   width: 100%; }
   header .header-bg {
-    background-color: #333;
     padding: 0;
     height: 200px; }
   header h1 {
     font-size: 40px;
     margin: 25px auto; }
   header .avatar {
-    border-radius: 50%; }
+    border-radius: 50%;
+    border: 4px solid white; }
   header .sub {
-    color: #666;
+    color: #f7bf25;
     font-weight: 100;
     font-style: normal;
     font-size: 32px;
-    margin: 5px auto; }
+    margin: 5px auto 0; }
 
 .intenest-list-header {
-  color: #4285f4;
+  color: #555;
   text-align: center;
   text-transform: uppercase;
   font-weight: 200;
   background-color: #eee;
-  margin: 60px 0 0;
+  margin: 0;
   padding: 10px 0;
   border-top: 1px #666 solid;
   border-bottom: 1px #666 solid; }
@@ -39,13 +41,13 @@ header {
   list-style: none;
   width: 100%;
   padding: 0;
-  margin: 0; }
+  margin: auto; }
 
 .interest-bar {
   display: block;
   width: 100%;
-  margin: auto;
-  padding: 20px 40px;
+  margin: 0 auto;
+  padding: 20px 0;
   text-align: center;
   text-decoration: none;
   border-bottom: 1px solid #ccc; }
@@ -57,7 +59,7 @@ header {
     font-weight: 200; }
 
 .interest-content {
-  max-width: 800px;
+  max-width: 600px;
   text-align: center;
   margin: auto; }
 
@@ -74,15 +76,15 @@ header {
   width: 100%;
   padding-left: 30px; }
 
-.interest-color-item, .blue, .purple, .gold, .red {
+.interest-color-item, .blue, .purple, .gold, .red, .green {
   background-color: white;
   color: #333;
   transition-duration: 0.5s; }
-  .interest-color-item a, .blue a, .purple a, .gold a, .red a {
+  .interest-color-item a, .blue a, .purple a, .gold a, .red a, .green a {
     color: #333; }
-    .interest-color-item a:visited, .blue a:visited, .purple a:visited, .gold a:visited, .red a:visited {
+    .interest-color-item a:visited, .blue a:visited, .purple a:visited, .gold a:visited, .red a:visited, .green a:visited {
       color: #333; }
-    .interest-color-item a:hover, .blue a:hover, .purple a:hover, .gold a:hover, .red a:hover {
+    .interest-color-item a:hover, .blue a:hover, .purple a:hover, .gold a:hover, .red a:hover, .green a:hover {
       color: white; }
 
 .blue:hover {
@@ -96,3 +98,21 @@ header {
 
 .red:hover {
   background-color: #e81b52; }
+
+.green:hover {
+  background-color: #4eaf2a; }
+
+footer {
+  background-color: #555;
+  color: white;
+  padding: 25px 0;
+  margin: 0 auto;
+  text-align: center; }
+  footer a {
+    display: inline-block;
+    color: white;
+    padding-right: 10px; }
+    footer a:hover {
+      color: white; }
+    footer a:last-child {
+      padding-right: 0; }

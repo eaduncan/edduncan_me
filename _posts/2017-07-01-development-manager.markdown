@@ -1,7 +1,7 @@
 ---
 title:  "Manage Development Teams"
 layout: post
-blurb: "We write apps for the web, mobile and voice, build some APIs and run some platforms"
+blurb: "We write apps for the web, mobile and voice, build some APIs and run web platforms"
 list-image: manage.svg
 date:   2017-07-01 12:00:00 -0400
 categories: interests
